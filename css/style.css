@@ -108,6 +108,20 @@ p {
     padding-bottom: 16px;
 }
 
+.center {
+    text-align: center;
+}
+
+.center h3 {
+    margin-top: 36px;
+    padding-left: 72px;
+    text-align: center;
+}
+
+.center img {
+    padding-right: 40px;
+}
+
 .ato-button{
     background-color: #5FA47B;
     margin-top: 6%;
@@ -261,6 +275,56 @@ p {
     font-size: 24px;
 }
 
+.grid-container-project {
+    background-color: #EBB45A;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 1fr 1fr 1fr; 
+    text-decoration:double;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    border: 8px solid #000000;
+    box-shadow:10px 10px #000000;
+    display: grid;
+    font-family: gopher, sans serif;
+    font-size: 24px;
+}
+
+.inline-block-1 {
+    display: inline-block;
+    background-color: #5FA47B;
+    color: white;
+    border: 8px solid #000000;
+    box-shadow:10px 10px #000000;
+    width: 400px;
+    height: 400px;
+    padding-left: 24px;
+    margin-right: 33px;
+}
+
+.inline-block-2 {
+    display: inline-block;
+    color: white;
+    background-color: #353D87;
+    border: 8px solid #000000;
+    box-shadow:10px 10px #000000;
+    width: 400px;
+    height: 400px;
+    padding-left: 24px;
+    margin-right: 33px;
+}
+
+.inline-block-3 {
+    display: inline-block;
+    color: white;
+    background-color: #C2663D;
+    border: 8px solid #000000;
+    box-shadow:10px 10px #000000;
+    width: 400px;
+    height: 400px;
+    padding-left: 24px;
+    margin-right: 33px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 30% 40% 30%;
@@ -349,6 +413,15 @@ p {
     
 .scalable:hover{
     transform: scale(1.25);
+    cursor:pointer;
+}
+
+.rotate {
+    transition-duration: .2s;
+}
+
+.rotate:hover {
+    transform: rotate(5deg);
     cursor:pointer;
 }
 
