@@ -41,6 +41,12 @@ h2 {
 h3 {
     text-align: left;
     font-family:gopher, sans-serif;
+    font-size: 48px;
+}
+
+h4 {
+    text-align: left;
+    font-family:gopher, sans-serif;
     font-size: 36px;
 }
 
@@ -107,6 +113,15 @@ p {
     margin-top: 6%;
 }
 
+.project4-button {
+    background-color: #5c5555;
+    margin-top: 6%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .mockup{
     height: 330px;
     padding-left: 10px;
@@ -114,9 +129,15 @@ p {
     padding-bottom: 10px;
 }
 
+.mockup-project4 {
+    height: 330px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 480px;
+}
+
 .mockup-mobile{
     height: 400px;
-
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -250,10 +271,20 @@ p {
 .grid-container-img {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    margin-left: 14%;
+    margin-left: 78px;
     margin-bottom: 2%;
     padding-bottom: 2%;
     padding-left: 2%;
+}
+
+
+.grid-container-img img {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 .grid-container-intro {
@@ -343,7 +374,7 @@ p {
 }
 
 .resume-button {
-    margin-top: 40px;
+    margin-top: 64px;
     margin-bottom: 20px;
     background: #C2663D;
 }

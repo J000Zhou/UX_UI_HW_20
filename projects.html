@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="css/style.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    </head>
-    
-    <body>       
-        <title>Jo Zhou | UX/UI designer in Melbourne</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <body>  
 
         <div>
-            <div class="inline-block logo">
-                <img src="images/footer-logo.png" class="logo scalable">
-            </div>
+            <header>
+                <title>Jo Zhou | UX/UI designer in Melbourne</title>
 
-            <nav class="inline-block">
-                <button class="inline-block abt scalable" onclick="document.location='about-me.html'">About</button>
-                <button class="inline-block work scalable" onclick="document.location='projects.html'">Work</button>
-                <button class="inline-block contact scalable">Contact</button>
-            </nav>
-        </div>
-        
-        
-        <div class="parent-container">
-            <div class="self-img">
-                <img src="images/hero-img.png">
-            </div>
+                <div>
+                    <div class="inline-block logo">
+                        <img src="images/footer-logo.png" class="logo scalable" onclick="document.location='index.html'" >
+                    </div>
 
-            <div class="self-intro">
-                <h1>Hello. I'm Jo Zhou, a User Experience Designer in Melbourne.</h1>
-                <p>To create experiences that are meaningful, impactful, intuitive, and perhaps, even a bit delightful.</p>
-            </div>
-
+                <nav class="inline-block">
+                    <button class="inline-block abt scalable" onclick="document.location='about-me.html'">About</button>
+                    <button class="inline-block work scalable">Work</button>
+                    <button class="inline-block contact scalable">Contact</button>
+                </nav>
+            </header>
         </div>
 
-    <section>
         <div>
-            <h3 class="line">---------------------------Latest projects---------------------------</h3>
+            <h2>Recent projects...</h2>
         </div>
 
+            <ul class="breadcrumbs">
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="#">Recent projects</a></li>
+            </ul>
+
+        <div>
+            <h3 class="line">--------------------Projects--------------------</h3>
+        </div>
+       
         <div class="grid-container-work">
         
             <div>
@@ -80,24 +76,18 @@
             
         </div>
 
-        <div class="img">
-            <a href="" class="link">See more work</a>
-        </div>
-    </section>
-
-            <h3 class="line">---------------------------About me---------------------------</h3>
-                <p class="paragraph">Everything I’ve done has been in pursuit of understanding people more deeply and fostering moments of empathy.
-                    ‍
-                <p class="paragraph">As a human, I’m frequently spotted taking photos for my 8 birds, driving my subie fast, and observing wild parrorts in Dandenong ranges. 📸 🦜</p>
-
-            <div class="grid-container-img">
-                <img src="images/sunset.png" class="scalable">
-                <img src="images/sunflower.png" class="scalable">
-                <img src="images/sunrise.png" class="scalable"> 
+        <div class="grid-container-work">
+            
+            <div>
+                <img src="images/coming-soon.png" class="mockup-project4">
             </div>
-                    
-        <div class="read-more">
-            <a href="about-me.html" class="link">Read more</a>
+
+            <div>
+                <h3>Product redesign - coming soon</h3>
+                <p>This project expects to be completed by mid-May 2022.</p>
+                <button class="project4-button scalable">Coming soon</button>
+            </div>
+            
         </div>
 
         <footer>
