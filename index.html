@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
+
     <head>
+        <title>Jo Zhou | UX/UI designer in Melbourne</title>
+
         <link href="css/style.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     
-    <body>       
-        <title>Jo Zhou | UX/UI designer in Melbourne</title>
+    <body>
 
-        <div>
-            <div class="inline-block logo">
-                <img src="images/footer-logo.png" class="logo scalable">
-            </div>
+        <div class="grid-container-nav">
 
-            <nav class="inline-block">
-                <button class="inline-block abt scalable" onclick="document.location='about-me.html'">About</button>
-                <button class="inline-block work scalable" onclick="document.location='projects.html'">Work</button>
-                <button class="inline-block contact scalable">Contact</button>
-            </nav>
+            <a href="index.html"><img src="images/footer-logo.png" class="logo scalable"></a>
+            
+            <button class="nav-button nav-item-1 scalable bg-green" onclick="document.location='about-me.html'">About</button>
+            <button class="nav-button nav-item-2 scalable bg-blue" onclick="document.location='projects.html'">Work</button>
+            <button class="nav-button nav-item-3 scalable bg-orange">Contact</button>
+            
         </div>
         
         
@@ -33,57 +33,57 @@
 
         </div>
 
-    <section>
-        <div>
-            <h3 class="line">---------------------------Latest projects---------------------------</h3>
-        </div>
-
-        <div class="grid-container-work">
-        
+        <section>
             <div>
-                <img src="images/rspca-desktop.gif" class="mockup">
+                <h3 class="line">---------------------------Latest projects---------------------------</h3>
             </div>
 
-            <div>
-                <h3>RSPCA Australia redesign</h3>
-                <p>RSPCA Australia Responsive Web Design, restructuring the layout to simplfy the process of reporting animal cruelty.</p>
-                <button class="rspca-button scalable" onclick="document.location='rspca.html'">Read case study</button>
-            </div>
-        </div>
-        
-
-        <div class="grid-container-work">
+            <div class="grid-container-work">
             
-            <div class="haowu">
-                <img src="images/haowu-mobile.gif" class="mockup-mobile">
-            </div>
+                <div>
+                    <img src="images/rspca-desktop.gif" class="mockup">
+                </div>
 
-            <div>
-                <h3>Haowu - a price tracking mobile app</h3>
-                <p>Allows you to compare prices across multiple official retailers for one single item.</p>
-                <button class="haowu-button scalable">Read case study</button>
+                <div>
+                    <h3>RSPCA Australia redesign</h3>
+                    <p>RSPCA Australia Responsive Web Design, restructuring the layout to simplfy the process of reporting animal cruelty.</p>
+                    <button class="rspca-button scalable" onclick="document.location='rspca.html'">Read case study</button>
+                </div>
             </div>
             
-        </div>
 
-        <div class="grid-container-work">
-            
-            <div class="haowu">
-                <img src="images/ato-mobile.gif" class="mockup-mobile">
+            <div class="grid-container-work">
+                
+                <div class="haowu">
+                    <img src="images/haowu-mobile.gif" class="mockup-mobile">
+                </div>
+
+                <div>
+                    <h3>Haowu - a price tracking mobile app</h3>
+                    <p>Allows you to compare prices across multiple official retailers for one single item.</p>
+                    <button class="haowu-button scalable">Read case study</button>
+                </div>
+                
             </div>
 
-            <div>
-                <h3>ATO - government agency website redesign</h3>
-                <p>Reorganise the ATO navigation that provides informative and easy-to-understand content which effectively reduce the time spent on completing specific tasks.</p>
-                <button class="ato-button scalable">Read case study</button>
-            </div>
-            
-        </div>
+            <div class="grid-container-work">
+                
+                <div class="haowu">
+                    <img src="images/ato-mobile.gif" class="mockup-mobile">
+                </div>
 
-        <div class="img">
-            <a href="" class="link" onclick="document.location='projects.html'">See more work</a>
-        </div>
-    </section>
+                <div>
+                    <h3>ATO - government agency website redesign</h3>
+                    <p>Reorganise the ATO navigation that provides informative and easy-to-understand content which effectively reduce the time spent on completing specific tasks.</p>
+                    <button class="ato-button scalable">Read case study</button>
+                </div>
+                
+            </div>
+
+            <div class="img">
+                <a href="" class="link" onclick="document.location='projects.html'">See more work</a>
+            </div>
+        </section>
 
             <h3 class="line">---------------------------About me---------------------------</h3>
                 <p class="paragraph">Everything I’ve done has been in pursuit of understanding people more deeply and fostering moments of empathy.
@@ -126,6 +126,7 @@
                 </div>
             </div>
         </footer>
-    <script src="js/index.js"></script>
+
+        <script src="js/index.js"></script>
     </body>
 </html>
