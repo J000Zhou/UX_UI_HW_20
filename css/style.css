@@ -329,15 +329,6 @@ button {
     padding-right: 40px;
 }
 
-.project4-button {
-    background-color: #5c5555;
-    margin-top: 6%;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
 mark {
     background: none;
     font-weight: bold;
@@ -507,6 +498,15 @@ mark.green {
 
 .haowu {
     padding-left: 25%;
+}
+
+.project4-button {
+    background-color: #5c5555;
+    margin-top: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 20px;
+    padding-left: 25px;
 }
 
 .line {
